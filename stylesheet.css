@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+article, aside, footer, header, main, nav, section  {
+    display:block;
+}
+
+
+
+
+/*De reden dat we dit op 0 zetten is zodat we niet afhankelijk zijn van diverse browsers met deafault waarden */
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section  {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body        {   background-color: #dfe0e6;
+            
+}
+
+
+
+header      {   background-color:#3e3ec3;
+                width: 1300px;
+                height:100px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 10px;
+}  
+
+
+nav         {   background-color: #b9c0c6;
+                width: 1300px;
+                height: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+    
+}
+
+li          {   font-family: sans-serif;
+                color: #080d10;
+                display: inline;
+                margin-left: 5px;
+                margin-right: auto;
+
+}
+
+main        { background-color: #e0e4e6;
+              width: 1300px;
+              height: auto;
+              margin-left: auto;
+              margin-right: auto;
+
+}
+
+
+
+.blauwevierkant         {   background-color: #1465ac;
+                            width: 200px;
+                            height: 200px;
+                            float: left;
+                        
+                            
+
+}
+    
+
+.groenevierkant         {   background-color: #5ab549;
+                            width: 200px;
+                            height: 200px;
+                            float: left;
+                           
+
+}  
+    
+ 
+    
+.gelevierkant           {   background-color: #e2e24c;
+                            width: 200px;
+                            height: 200px;
+                            float: left;
+}
+    
+
+ 
+footer         {   background-color: #af0f0f;
+                            width: 1300px;
+                            height: 90px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            clear: left;
+
+
+}
+    
